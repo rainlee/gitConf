@@ -1,0 +1,29 @@
+[user]
+        name = leeht
+        email = leeht2008@gmail.com
+[color]
+        ui = true
+        diff = true
+        status = true
+        branch = true
+        interactive = true
+[alias]
+    ar = archive
+    ci = commit
+    di = diff
+    dc = diff --cached
+    co = checkout
+    cob = checkout -b
+    br = branch
+    m = merge
+    a = add .
+    st = status
+    dbr = branch -d
+    ci = commit
+    rb = rebase
+    l = log --oneline --decorate
+    backup = archive --format=tar.gz -o backup.tar.gz HEAD
+    last = log -1 HEAD
+    rb = rebase
+    ll = log --graph --pretty=format:'%C(bold blue)%h%Creset %s %Cgreen(%cr)%Creset %C(yellow)%d%Creset' --abbrev-commit --date=relative
+    gl = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
